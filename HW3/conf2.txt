@@ -1,0 +1,8 @@
+|# Конфигурация приложения #|
+app_name = "TestApp";
+version = 2;
+settings = {
+    theme = "dark";
+    notifications = true;
+};
+

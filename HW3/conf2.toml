@@ -1,0 +1,4 @@
+app_name = "TestApp"
+version = 2
+theme = "dark"
+notifications = "true"

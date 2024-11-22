@@ -1,0 +1,248 @@
+[
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 1,
+        "binary": "4501000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 10,
+        "binary": "3c0a000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 2,
+        "binary": "4502000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 11,
+        "binary": "3c0b000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 3,
+        "binary": "4503000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 12,
+        "binary": "3c0c000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 4,
+        "binary": "4504000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 13,
+        "binary": "3c0d000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 5,
+        "binary": "4505000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 14,
+        "binary": "3c0e000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 100,
+        "binary": "4564000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 20,
+        "binary": "3c14000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 200,
+        "binary": "45c8000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 21,
+        "binary": "3c15000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 300,
+        "binary": "452c010000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 22,
+        "binary": "3c16000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 400,
+        "binary": "4590010000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 23,
+        "binary": "3c17000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 500,
+        "binary": "45f4010000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 24,
+        "binary": "3c18000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    },
+    {
+        "opcode": "LOAD_MEM",
+        "A": 15,
+        "B": 10,
+        "binary": "4f0a000000"
+    },
+    {
+        "opcode": "MUL",
+        "A": 11,
+        "B": 20,
+        "binary": "ab14000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 20,
+        "binary": "3c14000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    },
+    {
+        "opcode": "LOAD_MEM",
+        "A": 15,
+        "B": 11,
+        "binary": "4f0b000000"
+    },
+    {
+        "opcode": "MUL",
+        "A": 11,
+        "B": 21,
+        "binary": "ab15000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 21,
+        "binary": "3c15000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    },
+    {
+        "opcode": "LOAD_MEM",
+        "A": 15,
+        "B": 12,
+        "binary": "4f0c000000"
+    },
+    {
+        "opcode": "MUL",
+        "A": 11,
+        "B": 22,
+        "binary": "ab16000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 22,
+        "binary": "3c16000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    },
+    {
+        "opcode": "LOAD_MEM",
+        "A": 15,
+        "B": 13,
+        "binary": "4f0d000000"
+    },
+    {
+        "opcode": "MUL",
+        "A": 11,
+        "B": 23,
+        "binary": "ab17000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 23,
+        "binary": "3c17000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    },
+    {
+        "opcode": "LOAD_MEM",
+        "A": 15,
+        "B": 14,
+        "binary": "4f0e000000"
+    },
+    {
+        "opcode": "MUL",
+        "A": 11,
+        "B": 24,
+        "binary": "ab18000000"
+    },
+    {
+        "opcode": "WRITE_MEM",
+        "A": 12,
+        "B": 24,
+        "binary": "3c18000000"
+    },
+    {
+        "opcode": "LOAD_CONST",
+        "A": 5,
+        "B": 0,
+        "binary": "4500000000"
+    }
+]
