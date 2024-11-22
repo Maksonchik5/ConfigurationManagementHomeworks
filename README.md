@@ -19,6 +19,7 @@
 Все функции эмулятора должны быть покрыты тестами, а для каждой из поддерживаемых команд необходимо написать 2 теста.
 
 Результат работы программы
+
 ![image](https://github.com/user-attachments/assets/6638ddd9-2c1e-47b7-be1d-716bb7774744)
 
 
@@ -37,6 +38,7 @@
 Все функции визуализатора зависимостей должны быть покрыты тестами.
 
 Сгенерированный граф зависимостей глубины = 2
+
 ![dependencies_graph](https://github.com/user-attachments/assets/8fc48a8a-b271-47bb-98a9-8ac550c64df3)
 
 
@@ -92,22 +94,29 @@
 
 Входные файлы:
 1)conf1.txt
+
 ![image](https://github.com/user-attachments/assets/108f77e1-3443-48f8-a4fb-5e740737e8ae)
 
 2)conf2.txt
+
 ![image](https://github.com/user-attachments/assets/3012eff5-8a20-4aa4-a4ad-1b41dba254aa)
 
 3)conf3.txt
+
 ![image](https://github.com/user-attachments/assets/2c8844a3-49fa-4017-aef1-f811bd7c1007)
 
 Результаты запуска программы
+
 1)./main.py --input conf1.txt --output conf1.toml
+
 ![image](https://github.com/user-attachments/assets/41983a72-7aac-4580-bfd1-b0ba2ef653d5)
 
 2)./main.py --input conf2.txt --output conf2.toml
+
 ![image](https://github.com/user-attachments/assets/401ac336-c0ec-43dc-b031-0ac0b4e0dcf1)
 
 3)./main.py --input conf3.txt --output conf3.toml
+
 ![image](https://github.com/user-attachments/assets/f2811421-ea2c-4863-ac52-596b0962e56d)
 
 # Задание №4
@@ -211,7 +220,9 @@ WRITE_MEM 12 24
 LOAD_CONST 5 0
 ```
 Запуск команд 
+
 1)./assembler.py --input program.txt --output program.bin --log log.json
+
 2)./interpreter.py --binary program.bin --result result.json --range 0-100
 
 Выходной файл result.txt:
