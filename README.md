@@ -36,6 +36,10 @@
 
 Все функции визуализатора зависимостей должны быть покрыты тестами.
 
+Сгенерированный граф зависимостей глубины = 2
+![dependencies_graph](https://github.com/user-attachments/assets/8fc48a8a-b271-47bb-98a9-8ac550c64df3)
+
+
 # Задание №3
 
 Разработать инструмент командной строки для учебного конфигурационного языка, синтаксис которого приведен далее. Этот инструмент преобразует текст из входного формата в выходной. Синтаксические ошибки выявляются с выдачей сообщений.
@@ -85,6 +89,26 @@
 Результатом вычисления константного выражения является значение.
 
 Все конструкции учебного конфигурационного языка (с учетом их возможной вложенности) должны быть покрыты тестами. Необходимо показать 3 примера описания конфигураций из разных предметных областей.
+
+Входные файлы:
+1)conf1.txt
+![image](https://github.com/user-attachments/assets/108f77e1-3443-48f8-a4fb-5e740737e8ae)
+
+2)conf2.txt
+![image](https://github.com/user-attachments/assets/3012eff5-8a20-4aa4-a4ad-1b41dba254aa)
+
+3)conf3.txt
+![image](https://github.com/user-attachments/assets/2c8844a3-49fa-4017-aef1-f811bd7c1007)
+
+Результаты запуска программы
+1)./main.py --input conf1.txt --output conf1.toml
+![image](https://github.com/user-attachments/assets/41983a72-7aac-4580-bfd1-b0ba2ef653d5)
+
+2)./main.py --input conf2.txt --output conf2.toml
+![image](https://github.com/user-attachments/assets/401ac336-c0ec-43dc-b031-0ac0b4e0dcf1)
+
+3)./main.py --input conf3.txt --output conf3.toml
+![image](https://github.com/user-attachments/assets/f2811421-ea2c-4863-ac52-596b0962e56d)
 
 # Задание №4
 
@@ -141,4 +165,49 @@
 ## Тестовая программа
 
 Выполнить поэлементно операцию умножение над двумя векторами длины 5. Результат записать во второй вектор.
+
+Входной файл program.txt:
+```LOAD_CONST 5 1
+WRITE_MEM 12 10
+LOAD_CONST 5 2
+WRITE_MEM 12 11
+LOAD_CONST 5 3
+WRITE_MEM 12 12
+LOAD_CONST 5 4
+WRITE_MEM 12 13
+LOAD_CONST 5 5
+WRITE_MEM 12 14
+LOAD_CONST 5 100
+WRITE_MEM 12 20
+LOAD_CONST 5 200
+WRITE_MEM 12 21
+LOAD_CONST 5 300
+WRITE_MEM 12 22
+LOAD_CONST 5 400
+WRITE_MEM 12 23
+LOAD_CONST 5 500
+WRITE_MEM 12 24
+LOAD_CONST 5 0
+LOAD_MEM 15 10
+MUL 11 20
+WRITE_MEM 12 20
+LOAD_CONST 5 0
+LOAD_MEM 15 11
+MUL 11 21
+WRITE_MEM 12 21
+LOAD_CONST 5 0
+LOAD_MEM 15 12
+MUL 11 22
+WRITE_MEM 12 22
+LOAD_CONST 5 0
+LOAD_MEM 15 13
+MUL 11 23
+WRITE_MEM 12 23
+LOAD_CONST 5 0
+LOAD_MEM 15 14
+MUL 11 24
+WRITE_MEM 12 24
+LOAD_CONST 5 0```
+
+
 
